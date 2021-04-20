@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <script
+      src="https://kit.fontawesome.com/da8ce40f6b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <section class="list">
+      <header class="list__header">To-do List</header>
+      <ul class="list__items"></ul>
+      <footer class="list__footer">
+        <input
+          type="text"
+          class="footer__input"
+          placeholder="Enter an item..."
+        />
+        <button class="footer__btn btn--add">
+          <i class="fas fa-plus"></i>
+        </button>
+        <button class="footer__btn btn--clear">
+          <i class="fas fa-trash-alt"></i>
+        </button>
+      </footer>
+    </section>
+  </body>
+</html>
